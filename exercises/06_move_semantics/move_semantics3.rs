@@ -10,7 +10,7 @@
 
 #[test]
 fn main() {
-    let vec0 = vec![22, 44, 66];
+    let mut vec0 = vec![22, 44, 66];
 
     let mut vec1 = fill_vec(vec0);
 
