@@ -15,6 +15,7 @@ fn main() {
     assert_eq!(vec1, vec![22, 44, 66, 88]);
 }
 
+// Immutable borrow.
 fn fill_vec(vec: &Vec<i32>) -> Vec<i32> {
     let mut vec = vec.clone();
 
